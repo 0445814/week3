@@ -1,0 +1,21 @@
+.btn {
+  border: 1px solid transparent;
+}
+
+.form-btn {
+  cursor: pointer;
+  transition: all 0.15;
+  width: 350px;
+  height: 54px;
+  &:hover {
+    transition: all 0.15;
+    opacity: 0.8;
+  }
+  @include md-down {
+    width: 100%;
+  }
+}
+
+.btn-danger {
+  background-color: $danger;
+}
